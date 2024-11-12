@@ -1,0 +1,27 @@
+.tab-buttons {
+    margin-bottom: 20px;
+}
+
+.items-container {
+    float: left;
+    width: 60%;
+}
+
+.basket-container {
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+}
+
+#basket {
+    list-style-type: none;
+    padding: 0;
+}
+
+#basket li {
+    margin-bottom: 5px;
+}
+
+#totalPrice {
+    font-weight: bold;
+}

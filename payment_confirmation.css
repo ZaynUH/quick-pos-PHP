@@ -1,0 +1,51 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #902bf5;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  #payment-details {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align text */
+  }
+  
+  #payment-details p {
+    font-size: 20px;
+    margin-bottom: 20px; /* Increase the margin */
+  }
+  
+  #paymentAmount {
+    font-weight: bold;
+    color: #4CAF50;
+    font-size: 24px; /* Increase the font size */
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 20px; /* Increase padding for larger button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px; /* Increase the font size */
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

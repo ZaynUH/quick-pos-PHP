@@ -1,0 +1,103 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: antiquewhite;
+    display: -ms-inline-grid;
+    color: black;
+    flex-direction: column;
+    border-style: round;
+    border-radius: 5px;
+    cursor: pointer;
+    /* text-align: end; */
+    /* padding: 20px; */
+
+}
+
+.container {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+
+}
+
+.tabs-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    text-align: end;
+    /* max-width: 600px;
+    margin-bottom: 20px; */
+}
+
+.tab-button {
+    /* width: auto; */
+    background-color: antiquewhite;
+    color: black;
+    border-style: round;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: end;
+    /* right: 0px */
+    /* align-items: right; */
+    /* margin-right: auto; */
+}
+
+.tabs {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.tab {
+    background-color: antiquewhite;
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.tab-name {
+    margin: 0;
+}
+
+.tab-icon {
+    background-color: antiquewhite;
+    color: black;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.pos-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.pos-item {
+    padding: 5px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.employees-container,
+.settings-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 5px;
+}

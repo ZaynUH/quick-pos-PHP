@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+</head>
+<body>
+    <h1>Items from First Page</h1>
+    <ul id="itemsList">
+        <!-- Items will be dynamically added here -->
+    </ul>
+    <button type="submit" onclick="mainPage()">Next Page</button> 
+    <script>
+        // Call the function to display items from the text file when the page loads
+        window.onload = displayItemsFromFile();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

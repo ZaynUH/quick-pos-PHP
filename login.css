@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf5ef; /* Light beige background, adjust color as needed */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1 {
+    font-family: "Oswald", sans-serif;
+  }
+  
+  header {
+   
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1500px;
+    margin-left: auto;
+    width: 90%;
+    margin-right: auto;
+    /* background-color: #e0d7c6; */
+    border-bottom: 1px solid #1f4350;
+    color: #333;
+    position: relative;
+  }
+  .header .right-area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .header .right-area a {
+    background-color: #1f4350;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 99px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .main-heading {
+    max-width: 1300px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1f4350;
+    font-size: 120px;
+    line-height: 120px;
+    margin-left: 0px;
+  }
+  
+  .header .left-area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .header .left-area p {
+    background-color: #1f4350;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-size: 17px;
+  }
+  .header .left-area .teammember {
+    font-weight: 800;
+  }
+  .header .logo {
+    width: 250px;
+  }
+  .header #current-time {
+    position: absolute;
+    left: 50%;
+    font-weight: 600;
+    transform: translateX(-50%);
+    font-size: 20px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding: 6px 6px;
+    width: 330px;
+    border-radius: 99px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4b7382;
+  }
+  
+  .nav .tab {
+    padding: 15px 20px;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 99px;
+    color: #fff;
+  }
+  
+  .nav .tab.active {
+    background-color: #1f4350;
+    font-weight: bold;
+  }
+
+  .main-body-area {
+
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  /* CSS */
+.main-body-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .login-area {
+    width: 35%; /* Adjust width as needed */
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .login-form {
+    
+    max-width: 400px; /* Adjust max-width as needed */
+  }
+  
+  .right-content {
+    width: 55%; /* Adjust width as needed */
+    text-align: center;
+  }
+  
+  .right-content h1 {
+    font-size: 60px; /* Adjust font size as needed */
+  }
+  
+  .right-content img {
+    max-width: 100%;
+    height: auto;
+  }
+  

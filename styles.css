@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.main-body-area {
+    display: flex;
+    height: 720px;
+}
+
+.tab-buttons {
+    border-bottom: 1px solid black; /* Border below */
+    width: 100%; /* Fixed width for tab buttons */
+    margin-right: 10px; /* Add some spacing between tab buttons and items */
+}
+
+.items-container {
+    border-top: 1px solid black; /* Border above */
+    border-bottom: 1px solid black; /* Border below */
+    flex: 1; /* Take remaining space */
+    margin-right: 10px; /* Add some spacing between items and basket */
+}
+
+.basket-container {
+    border-left: 1px solid black; /* Border to the left */
+    border-bottom: 1px solid black; /* Border below */
+    padding: 10px; /* Add some padding for spacing */
+    width: 200px; /* Fixed width for basket */
+}

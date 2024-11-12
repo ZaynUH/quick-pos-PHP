@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="payment_confirmation.css">
+  <title>Payment Confirmation</title>
+</head>
+<body>
+  <header>
+    <h1>Payment Successful</h1>
+  </header>
+
+  <section id="payment-details">
+    <p>You have successfully made a payment of $<span id="paymentAmount"></span>.</p>
+    <p>Card number was **** **** **** <span id="last4Digits"></span>.</p>
+    <button onclick="continueShopping()">Continue</button>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="app.js"></script>
+  <script src="payment_confirmation.js"></script>
+</body>
+</html>
